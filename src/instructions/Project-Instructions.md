@@ -7,55 +7,103 @@ These problems will not be formally graded, but you might be asked to share your
 
 **Save your `.java` files in the `.answers` directory**
 
+
+
+#### When a customer begins the program, he should be able to interact with a menu of options
+
+The options should include:
+
+- See all products
+- See products by category
+- View shopping cart
+- View wallet
+- Exit program
+
+The customer should be able to select each of these options
+
 -------------
 
-### User story 1
 #### A customer should be able to see a list of all products
 
+Each item in the list should include a product ID, the product name, category and whether or not it is in stock. You will need to come up with a system to generate appropriate IDs.
+
 -------------
 
-### User story 2
 #### A customer should be able to sort the list of all products by name, category or price
 
--------------
-
-### User story 3
-#### A customer should be able to sort the list of all products by name, category or price
+On any screen where the customer sees a list of products, the customer should be presented with options to sort the list by name, category or price.
 
 -------------
 
-### User story 4
+#### A customer should be able to see how much money he has left
+
+Customers should be presented with a random amount of money when the program is started. The current amount of money left should be visible when the customer selects 'View wallet'
+
+-------------
+
+#### A customer should be able to add items to a shopping cart
+
+On any screen where the customer sees a list of products, the customer should be able to select a product and a quantity. If there is enough product in stock, the item should get added to a shopping cart and the user should receive feedback. If there is not enough product in stock, the user should receive a message with that information and the item should not be added to the shopping cart.
+
+-------------
+
+#### A customer should be able to view the shopping cart
+
+The shopping cart should contain a list of items to be purchased, including product ID, name and quantity.
+
+-------------
+
+#### A customer should be able to remove items from the shopping cart
+
+-------------
+
+#### A customer should be able to 'purchase' items from a shopping cart if the customer has enough money
+
+If the customer has enough money, he should be able to purchase items in the shopping cart. The customer should receive a confirmation message and the appropriate amount of money should be subtracted from his wallet. In addition, the appropriate quantities of product should be removed from the product inventory.
+
+
+-------------
+
+## Challenge
+
+#### A users should be given the option to 'sign in' as an admin
+
+When the program is first started, users should be presented with the option to sign in as an admin. If this option is selected, users will need to enter a password. If the password matches a password stored in the system, the user is presented with an admin interface.
+
+### An admin should be able to interact with a menu of options
+
+The options should include:
+
+- See all products
+- Search for a product
+- See purchased items
+- See popular items
+- Exit program
+
+
+-------------
+
 #### An admin should be able to see a list of inventory that can be sorted by name, category  or number of items
 
 -------------
 
-### User story 5
 #### An admin should be able to search for items by name
 
--------------
-
-### User story 6
-#### A customer should be able to add items to a shopping cart
+bonus: The search should be case- and whitespace-insensitive
 
 -------------
 
-### User story 7
-#### A customer should be able to 'purchase' items from a shopping cart if the customer has enough money
-
--------------
-
-### User story 8
 #### An admin should be able to see a list of purchased items
 
 -------------
 
-### User story 9
-#### After 5 purchases, an admin should be able to see the most popular items
+#### After 5 purchases have been made, an admin should be able to see a list of the most popular items
 
 -------------
 
-### Challenge
-#### Make your own store
+#### Make your own store with a different set of inventory
+
+-------------
 
 ***Changes made to inventory should be reflected in calls to inventory-related features**
 ***Classes, methods and inheritance should be used to separate concerns and organize data**

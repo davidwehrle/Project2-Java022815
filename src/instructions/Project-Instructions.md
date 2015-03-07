@@ -9,7 +9,7 @@ These problems will not be formally graded, but you might be asked to share your
 
 
 
-#### When a customer begins the program, he should be able to interact with a menu of options
+#### When a customer begins the program, he should be able to interact with a text-based menu of options.
 
 The options should include:
 
@@ -19,25 +19,25 @@ The options should include:
 - View wallet
 - Exit program
 
-The customer should be able to select each of these options
+The customer should be able to select any of these options.
 
 -------------
 
 #### A customer should be able to see a list of all products
 
-Each item in the list should include a product ID, the product name, category and whether or not it is in stock. You will need to come up with a system to generate appropriate IDs.
+Each item in the list should include a product ID, the product name, a product category, and whether or not it is in stock. You will need to come up with a system to generate appropriate IDs.
 
 -------------
 
 #### A customer should be able to sort the list of all products by name, category or price
 
-On any screen where the customer sees a list of products, the customer should be presented with options to sort the list by name, category or price.
+On any screen where the customer sees a list of products, the customer should be presented with options to sort the list by name, category or price. All user input can be gathered in the console through text commands, rather than relying on a graphics-based interface.
 
 -------------
 
-#### A customer should be able to see how much money he has left
+#### A customer should be able to see how much money they have left in their wallet.
 
-Customers should be presented with a random amount of money when the program is started. The current amount of money left should be visible when the customer selects 'View wallet'
+Customers should be presented with a random amount of money when the program is started. The current amount of money left should be visible when the customer inputs 'View wallet'.
 
 -------------
 
